@@ -1,0 +1,5 @@
+usr/share/gocode/src/github.com/danos/notifyd/cmd/notifyd/main.go
+usr/share/gocode/src/github.com/danos/notifyd/notifier.go
+usr/share/gocode/src/github.com/danos/notifyd/notifier_test.go
+usr/share/gocode/src/github.com/danos/notifyd/testdata/scripts/callme
+usr/share/gocode/src/github.com/danos/notifyd/testdata/static/foo.notify
