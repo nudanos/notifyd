@@ -497,7 +497,7 @@ func TestNotifier(t *testing.T) {
 			waitForFile(t, cacheFile, watch)
 			subDesc := <-bus.EavesDrop()
 			if subDesc.module != "bar" || subDesc.event != "baz" {
-				t.Fatalf("unexpeted subscription %#v\n", subDesc)
+				t.Errorf("unexpeted subscription %#v\n", subDesc)
 			}
 			end.Done()
 		}()
