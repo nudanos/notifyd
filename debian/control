@@ -1,9 +1,8 @@
 Source: notifyd
-Section: contrib/net
-Priority: extra
-Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
-Build-Depends:
- debhelper (>= 9),
+Section: net
+Priority: optional
+Maintainer: NuDanOS Maintainers <jon@fernandez.tech>
+Build-Depends: debhelper-compat (= 13),
  dh-golang,
  dh-vci,
  dh-yang,
@@ -15,7 +14,10 @@ Build-Depends:
  golang-github-go-ini-ini-dev,
  golang-jsouthworth-etm-dev,
  golang-jsouthworth-immutable-dev
-Standards-Version: 3.9.8
+Standards-Version: 4.7.2
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/nudanos/notifyd.git
+Vcs-Browser: https://github.com/nudanos/notifyd
 
 Package: notifyd
 Architecture: any
@@ -26,6 +28,5 @@ Description: VCI component to call scripts when events happen
 Package: notifyd-v1-yang
 Architecture: all
 Section: admin
-Priority: optional
 Description: notifyd-v1 module
  The YANG module for notifyd-v1

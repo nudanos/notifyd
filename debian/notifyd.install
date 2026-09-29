@@ -1,1 +1,1 @@
-usr/bin/notifyd lib/vci/notify/bin
+usr/bin/notifyd usr/lib/vci/notify/bin
