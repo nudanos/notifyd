@@ -21,12 +21,13 @@ Vcs-Browser: https://github.com/nudanos/notifyd
 
 Package: notifyd
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: VCI component to call scripts when events happen
  A VCI component that calls scripts when notifications occur
 
 Package: notifyd-v1-yang
 Architecture: all
+Depends: ${misc:Depends}
 Section: admin
 Description: notifyd-v1 module
  The YANG module for notifyd-v1
