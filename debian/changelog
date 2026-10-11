@@ -1,3 +1,9 @@
+notifyd (0.1.6) trixie; urgency=medium
+
+  * go vet every Go package, vendored code included.
+
+ -- NuDanOS Maintainers <jon@fernandez.tech>  Sun, 11 Oct 2026 11:16:50 -0700
+
 notifyd (0.1.5) trixie; urgency=medium
 
   * Add ${misc:Depends} to every binary package: dh-vci adds
